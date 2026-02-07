@@ -1,7 +1,22 @@
 # Titanic Survival Prediction
 
 ## Overview
-We implemented a **Random Forest Classifier** to predict passenger survival on the Titanic. The model was trained on the provided dataset and achieved an accuracy of **83%** on the test set.
+I implemented a **Random Forest Classifier** to predict passenger survival on the Titanic. The model was trained on the provided dataset and achieved an accuracy of **83%** on the test set.
+
+### 🔴 [Live Demo: Try it here!](https://titanicsurvivorprediction-j7h2pcjefmcxiay4svzgiv.streamlit.app/)
+
+## Basis of Prediction
+The model predicts survival based on several historical factors that influenced who had access to lifeboats:
+
+1.  **Socio-Economic Status (Passenger Class)**: 
+    - 1st-class passengers had significantly better access to lifeboats and were prioritized during the evacuation.
+2.  **Gender ("Women and Children First")**: 
+    - Women had a much higher survival rate (approx. 74%) compared to men (approx. 19%).
+3.  **Age**: 
+    - Children were prioritized for rescue. Adults in their prime also had better physical ability to reach safety.
+4.  **Family Size**: 
+    - Passengers with small families (1-3 members) often survived together.
+    - Large families struggled to stay together and move quickly, often resulting in lower survival rates.
 
 ## Implementation Details
 
