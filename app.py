@@ -51,6 +51,8 @@ if st.button("Predict"):
 
     if name.lower() == "rose":
          st.success(f"Prediction: **Survived** (Confidence: JACK DIED FOR THIS)")
+    elif name.lower() == "jack":
+         st.error(f"Prediction: **Did Not Survive** (Confidence: Such a simp)")
     elif prediction == 1:
         st.success(f"Prediction: **Survived** (Confidence: {probability:.2%})")
     else:
